@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+  margin: auto;
+  margin-top: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 6px 6px 52px 0px rgba(0, 47, 255, 0.75);
+  overflow: hidden;
+}
+
+.content{
+  text-align: center;
+  margin: 5%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(43, 55, 226);
+    margin: 5%;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+label{
+  font-family: "Poppins";
+  font-size: large;
+  color: rgb(221, 196, 55);
+  font-weight: 600
+}
+
+input{
+  display: flex;
+  padding: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 47, 255, 0.75);
+  border-radius: 2rem;
+  font-size: 12px;
+}
+
+input::placeholder{
+  color: rgb(36, 36, 226);
+  font-weight: 300;
+  font-family: "Poppins";
+}
+
+input:focus::placeholder{
+  color: transparent;
+  transition: .6s;
+}
+
+button{
+  margin: 10px;
+  padding: 5px;
+  width: 20%;
+  border-radius: 0.56rem;
+  border: 1px solid rgb(255, 0, 0);
+  background-color: rgba(228, 62, 62, 0.75);  
+  cursor: pointer;
+  font-size: 12px;
+}
+
+button:hover{
+  background-color: rgba(252, 0, 0, 0.75);
+  color: rgb(221, 196, 55)
+}
